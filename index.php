@@ -12,7 +12,7 @@ $data = $_GET['data'];
 
 $data = base64_encode($data);
 
-echo "$data **** ";
+//echo "$data **** ";
 
 
 
